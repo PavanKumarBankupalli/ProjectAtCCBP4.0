@@ -1,0 +1,3541 @@
+1 Coding Cover Page
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="coding-container d-flex  flex-column justify-content-center">
+        <div class="coding-card">
+            <h1 class="mainheading">code is more than somne bytes in a file</h1>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.coding-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+.coding-card {
+    background-color: #00000080;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #48ee59;
+    padding: 45px;
+}
+
+.mainheading {
+    color: #ffffff;
+    font-family: "bree serif";
+    font-size: 40px;
+}
+
+
+
+
+2  Hotel Booking Page
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-column justify-content-end">
+        <div class="hotel-card">
+            <h1 class="mainheading"> Royal Grand Hotel</h1>
+            <p class="paragraph"> R.K Beach,Vishakapatnam</p>
+            <R class="room-price">1200/- </R>
+            <div class="button-container"></div>
+            <BUTTON class="button"> Book Now</BUTTON>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 15px;
+}
+
+.hotel-card {
+    background-color: #000000e6;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.mainheading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.paragraph {
+    font-family: "bree seriff";
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.room-price {
+    color: #ffffff;
+
+    font-family: "bree serife";
+    font-size: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.button {
+    font-family: "roboto";
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 36px;
+    width: 138px;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+
+}
+
+
+
+
+
+3 COVID -19 page
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="covid-container">
+        <div class="covid-text d-flex flex-row"></div>
+        <h1 class="heading-text">All youneed to know about COVID-19</h1>
+        <button class="button"> Know more</button>
+        <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/medicalcare-img.png" />
+        <div class="covid-card-container  d-flex flex-row">
+            <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coronavirus-img.png" />
+            <h1 class="covid-card-heading"> COVID-19 Test</h1>
+            <p class="covid-card-description"> if you think you been exposed to novel coronaviras
+                (COVID-19).....more</P>
+        </div>
+    </div>
+    <h1 class="sub-heading"> Symptoms</h1>
+    <div class="d-flex  flex-row">
+        <div class="covid-card-container cough-bg ">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/cough-img.png" />
+            <h1 class="cough-card"> dry cough</h1>
+        </div>
+        <div class="covid-card-container fever-bg">
+            <img src="  https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/fever-img.png" />
+            <p class="fever-bg"> High Fever</p>
+        </div>
+
+        <div class="covid-card-container headache-bg">
+            <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/headache-img.png " />
+            <p class="headache-bg"> Headache</p>
+        </div>
+    </div>
+    <p class="some-videos"> Videos</p>
+    <div class="covid-card-container d-flex flex-row videos-bg">
+        <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/doctor-img.png" />
+        <h1 class="video-heading"> To prevent the spread of.....</h1>
+        <p class="video-description">if you think you have been exposed to novel
+            corona viras (COVID-19)</p>
+        <button class="btn"> Watch Video</button>
+
+    </div>
+
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.covid-container {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #0967d219;
+}
+
+.covid-header {
+    margin: 20px;
+}
+
+.heading-text {
+    color: #323f4b;
+    font-family: "roboto";
+    font-style: 20px;
+    font-weight: 500;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #0967d2;
+    font-family: "roboto";
+    font-size: 10px;
+    font-weight: 500;
+    width: 90px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 10px;
+}
+
+.covid-card-container {
+    background-color: #0967d219;
+    padding: 5px;
+    margin: 20px;
+}
+
+.covid-card-heading {
+    padding: 5px;
+    font-family: "roboto";
+    margin: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.covid-card-description {
+    color: #707070;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sub-heading {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.cough-bg {
+    background-color: #3ebd93;
+}
+
+.cough-card {
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.fever-bg {
+    background-color: #e668a7;
+}
+
+.fever-card {
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.headache-bg {
+    background-color: #a368fc;
+}
+
+.headache-card {
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.some-videos {
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.videos-bg {
+    background-color: #e12d3919;
+    border-radius: 10px;
+}
+
+.vedio-heading {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #323f4b;
+    padding: 20px;
+}
+
+.video-description {
+    font-family: "roboto";
+    font-size: 15px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #0967d2;
+
+
+
+}
+
+
+
+
+4  Finding Nemo (Movie Name) with Carousel
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="movie-bg-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c1-img.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c2-img.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c3-img.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="movie-heading-container d-flex flex-row justify-content-between">
+            <h1 class="movie-heading"> Finding Nemo</h1>
+            <button class="button"> Watch Now</button>
+        </div>
+        <p class="nemo-description"> A clown fish,is overly cautious with his son,Nemo who
+            has a foreshotened fin.When Nemo swims too close to the
+            surface to prove himself, he is caught by a diver,
+            and horrifiled marline must set out to find him.A blue
+            reef fish named Dory jions Marlin and complicates the encounters
+            with sharks,jellyfish, and a host of ocean dangers. Meanwhile,
+            Nemo plots his escape from a dentist's fish tank.</p>
+        <h class="sub-heading"> Similar Movies</h>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/finding-dory-img.png" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/bugslife-img.png" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ratatouille-movie-img.png" />
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.movie-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+    background-size: cover;
+    padding: 24px;
+}
+
+.movie-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 200;
+    padding: 10px;
+}
+
+.movie-heading-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #ff8348;
+    padding: 5px;
+    height: 60px;
+    width: 135px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.nemo-description {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.sub-heading {
+    font-family: "roboto";
+    padding: 24px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.similar-movie-image {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+5 Mobile Specifications Page
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/iphoneX-bg.png" class="mobile-image" />
+        <div class="detailes-container">
+            <h1 class="detailes-heading">SPECIFICATIONS: </h1>
+            <ul>
+                <li class="detailes-item">3GB RAM</li>
+                <li class="detailes-item">5.80 Super Retina HD OLED Display </li>
+                <li class="detailes-item">Front Camera 7MP </li>
+                <li class="detailes-item">Rear Camera 12MP + 12MP</li>
+                <li class="detailes-item">Apple A11 Bionic Processor</li>
+                <li class="detailes-item">Battery Capacity 2716mAH</li>
+                </u1>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary"> Buy Now</button>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.mobile-image {
+    width: 100vw;
+}
+
+.detailes-container {
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #707070;
+}
+
+.details-heading {
+    color: #0a1f44;
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.detailes-item {
+    font-size: 16px;
+    font-family: "roboto";
+    color: #0a1f44;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+
+
+
+
+6  Favorite Stores Page
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="shop-container">
+        <div class="shop-container favorite-shop d-flex flex-row">
+            <h1 class="favorite-shop"> Shop in your favorite stores</h1>
+
+            <img src="https://assets.ccbp.in/frontend/static-website/stores-img.png" />
+        </div>
+        <p class="shop-description">select your store with one click </p>
+
+        <div class="d-flex flex-column image">
+            <img src="https://assets.ccbp.in/frontend/static-website/amazon-logo-img.png" class="shopimage" />
+            <div>
+                <h1 class="amazon"> Amazon</h1>
+                <p class="amazon-description">Oneline Shopping Free Shipping & Cash on Delivery...</p>
+            </div>
+            <div class="d-flex flex-column image">
+                <img src="https://assets.ccbp.in/frontend/static-website/ikea-logo-img.png" class="shopimage" />
+                <div>
+                    <h1 class="ikea"> IKEA</h1>
+                    <p class="ikea-description">Explore our furniture & home furning range.IKEA is a globle leader....</p>
+                </div>
+                <div class="d-flex flex-column image2">
+                    <img src="https://assets.ccbp.in/frontend/static-website/bewakoof-logo-img.png"  class="shopimage"/>
+                    <div>
+                        <h1 class="bewakoof"> Bewakoof</h1>
+                        <p class="ikea-description"> A Lifesyle Fashion Brand That offers creative and distinctive fashion....</p>
+                    </div>
+                    <div class="d-flex flex-column image2">
+                        <img src="https://assets.ccbp.in/frontend/static-website/flipkart-logo-img.png" class="shopimage" />
+                        <div>
+                            <h1 class="flipkart"> FLIPkART</h1>
+                            <p class="ikea-description"> Wide range of genuine produts,neasy returns cash on delivery browse now....</p>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.shop-container {
+    background-color: #894bca;
+    height: 60vh;
+    background-size: cover;
+    width: 100vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.favorite-shop {
+    font-family: "bree serif";
+    color: #ffffff;
+    margin: 5px;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.shop-description {
+    color: #f780c3;
+    font-size: 20px;
+    font-family: "bree serif";
+    margin: 15px;
+}
+
+.amazon {
+    font-family: "bre serif";
+    font-size: 25px;
+    margin: 10px;
+}
+
+.amazon-description {
+    font-family: "bree serif";
+    font-size: 15px;
+    margin: 10px ;
+    color: #7b8794;
+    padding: 5px;
+}
+
+.ikea {
+    font-family: "bre serif";
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.image {
+    height: 25px;
+}
+
+.bewakoof {
+    font-family: "bre serif";
+    font-size: 25px;
+    margin: 10px;
+}
+
+.image2 {
+    height: 45px;
+}
+
+.bewakoot {
+    font-family: "bre serif";
+    font-size: 25px;
+    margin: 10px;
+}
+
+.flipkart {
+    font-family: "bre serif";
+    font-size: 25px;
+    margin: 10px;
+}
+
+.shopimage{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+7 Yoga Page 
+
+
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionYogaHomePage">
+        <div class="yoga-container d-flex-flex-column">
+
+            <h1 class="yoga-main-heading"> Discover the yogi life on
+                the Yoga Experince Platform</h1>
+
+
+            <div class=" d-felx flex-column justify-content-center">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" class="yoga-girl-image" />
+                <p class="yoga-description"> Yoga poses strengthen and open
+                    tight areas of the body</p>
+                <button class="button btn-primary" onclick="display('sectionYogaTypePage')"> Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionYogaTypePage">
+        <div class="yoga-page d-flex flex-column">
+            <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" class="yoga-girl-image" />"
+            <h1 class="yoga-main-heading"> Types of Yoga</h1>
+            <div class="acro-yoga-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="yoga-girl-image" />"
+                <div class="acro-yoga-container d-flex flex-column">
+                    <h1 class="yoga-type"> Acro Yoga</h1>
+                    <p class="yoga-description">It stretches and relaxes your body,
+                        improves astmina and memory.</p>
+                </div>
+            </div>
+            <div class="acro-yoga-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="yoga-girl-image" />"
+                <div class="acro-yoga-container d-flex flex-column">
+                    <h1 class="yoga-type"> Vinyasa Yoga</h1>
+                    <p class="yoga-description">It serves as atraing toincrease
+                        strength and helps to build lean musle mass throught the body.</p>
+                </div>
+            </div>
+            <div class="acro-yoga-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="yoga-girl-image" />"
+                <div class="acro-yoga-container d-flex flex-column">
+                    <h1 class="yoga-type"> Hatha Yoga</h1>
+                    <p class="yoga-description">It introduces beginners to the main relxation techniques
+                        and asanas</p>
+                </div>
+            </div>
+            <div class="acro-yoga-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="yoga-girl-image" />"
+                <div class="acro-yoga-container d-flex flex-column">
+                    <h1 class="yoga-type"> Kundalini Yoga</h1>
+                    <p class="yoga-description">It helps relax and restore the mind and the body, improving
+                        strenght, flexibulity, and endruance
+                    </p>
+                </div>
+            </div>
+            <button class="button btn-primary" onclick="display('sectionYogaHomePage')"> Back</button>
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.yoga-container {
+    background-color: #ffedcb;
+    height: 150vh;
+    background-size: cover;
+    background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+}
+
+.yoga-bg-image {
+
+    height: 90vh;
+    width: 70vw;
+    text-align: center;
+    margin: 35px;
+}
+
+.yoga-main-heading {
+    color: #132d84;
+    margin: 5px;
+    padding: 10px;
+    font-family: "Roboto";
+    font-style: bold;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.yoga-girl-image {
+    height: 50vh;
+    text-align: center;
+}
+
+.yoga-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 350;
+    margin-bottom: 5px;
+}
+
+.button {
+    text-align: center;
+    font-family: "Roboto";
+    margin-left: 95px;
+    border-radius: 10px;
+    border-color: green;
+}
+
+.yoga-page {
+    background-color: #ffedcb;
+    margin: 5px;
+}
+
+.acro-yoga-container {
+    background-color: #fad693;
+    margin: 10px;
+
+
+}
+
+.yoga-image {
+    height: 15px;
+    width: 15px;
+}
+
+
+.yoga-type {
+    color: #132d84;
+    font-family: "Roboto";
+    font-style: bold;
+    font-size: 40px;
+}
+
+.yoga-description {
+    color: #132d84;
+    font-family: "Roboto";
+    font-style: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+
+
+8  Flats Page with rates
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionFlatHomePage">
+        <div class="flat-container-home-page">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-bg.png" class="flat-bg-image" />
+            <div class="flat-home-page-container d-flex flex-column">
+                <h1 class="flat-avenue">Sunrise Avenue</h1>
+                <p class="home-page-description">Move to What moves you</p>
+                <button class="button btn-warning" onclick="display('sectionAvenuePage')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAvenuePage">
+        <div class="Avenue-flat-page">
+            <h1 class="avenue-heading"> Sunrise Avenue</h1>
+            <div class="flat-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="flat-image" onclick="display('section3BhkFlat')" />
+                <div class="d-flex flex-column">
+                    <h1 class="flat-name">3BHK Flat</h1>
+                    <P class="flat-description">This is a fully furnished house with
+                        handmode furniture including a luxry
+                        en-suite facilities pack. It's built -up area is about
+                        1600sq.ft .A spacious home for you to live in. </P>
+                </div>
+            </div>
+            <div class="flat-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="flat-image" onclick="display('section2BhkFlat')" />
+                <div class="d-flex flex-column">
+                    <h1 class="flat-name">2BHK Flat</h1>
+                    <P class="flat-description">A minimalist house mode for modren
+                        -day familes. It is fully furnished with trending farniture. It's
+                        built-up area is about 1200sq.ft</P>
+                </div>
+            </div>
+            <div class="flat-container d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="flat-image" onclick="display('section4BhkFlat')" />
+                <div class="d-flex flex-column">
+                    <h1 class="flat-name">4BHK Flat</h1>
+                    <P class="flat-description"> A contemporavy home with more colour and vibrancy
+                        . It is fully furnished with elegant furniture.It's built-up area is about
+                        3600sq.ft.</P>
+                </div>
+            </div>
+            <button class="button btn-warning" onclick="display('sectionFlatHomePage')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="section3BhkFlat">
+        <div class="room-container d-flex flex-column">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="room-image" />
+            <p class="room-rate">Rs 3000/-</p>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-icon" />
+                <p class="address"> D/N 5-2 Food Street,Indore</p>
+            </div>
+            <div class="d-flex flex-column">
+                <p class="room-desprition"> Description</p>
+                <p class="room-details">This is a fully furnished house with
+                    handmode furniture including a luxry
+                    en-suite facilities pack. It's built -up area is about
+                    1600sq.ft .A spacious home for you to live in.</p>
+            </div>
+
+            <div class="d-flex flex-row">
+                <button class="button btn-warning">Confirm</button>
+                <button class="button btn-warning " onclick="display('sectionFlatHomePage')">Back</button>
+            </div>
+        </div>
+
+
+        <div id="section2BhkFlat">
+            <div class="room-container d-flex flex-column">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="room-image" />
+                <p class="room-rate">Rs 2000/-</p>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-icon" />
+                    <p class="address"> D/N 6-2 Food Street,Indore</p>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="room-desprition"> Description</p>
+                    <p class="room-details"> A minimalist house mode for modren
+                        -day familes. It is fully furnished with trending farniture. It's
+                        built-up area is about 1200sq.ft</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <button class="button btn-warning">Confirm</button>
+                    <button class="button btn-warning " onclick="display('sectionFlatHomePage')">Back</button>
+                </div>
+            </div>
+
+
+            <div id="section4BhkFlat">
+                <div class="room-container d-flex flex-column">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="room-image" />
+                    <p class="room-rate">Rs 4000/-</p>
+                    <div class="d-flex flex-row">
+                        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-icon" />
+                        <p class="address"> D/N 5-2 Food Street,Indore</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <p class="room-desprition"> Description</p>
+                        <p class="room-details"> A contemporavy home with more colour and vibrancy
+                            . It is fully furnished with elegant furniture.It's built-up area is about
+                            3600sq.ft.</p>
+                        <div class="d-flex flex-row">
+                            <button class="button btn-warning">Confirm</button>
+                            <button class="button btn-warning " onclick="display('sectionFlatHomePage')">Back</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.flat-container-home-page {
+    padding: 15px;
+    background-size: cover;
+    height: 150vh;
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+}
+
+
+.flat-container-home-page {
+    margin: 5px;
+    padding: 5px;
+}
+
+.flat-bg-image {
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+}
+
+.flat-avenue {
+    font-family: "Bree serif";
+    font-size: 38px;
+    color: #f19116;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-page-description {
+    font-family: "Bree serif";
+    font-size: 25px;
+    color: #7b8794;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button {
+    font-family: "Bree serif";
+    font-size: 15px;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.Avenue-flat-page {
+    background-color: #222222;
+    height: 140vh;
+    background-size: cover;
+}
+
+.avenue-heading {
+    color: #f19116;
+}
+
+.flat-container {
+    background-color: #ffffff;
+    margin: 15px;
+
+}
+
+.flat-image {
+    height: 35vh;
+    width: 40vw;
+}
+
+.flat-name {
+    color: #2222222;
+    margin: 8px;
+    font-family: "Roboro";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.flat-description {
+    color: #2222222;
+    margin: 8px;
+    font-family: "Roboro";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.room-container {
+    background-color: #222222;
+    margin: 1px;
+    height: 150vh;
+    background-size: cover;
+}
+
+.room-image {
+    height: 50vh;
+    width: 80vw;
+    margin: 8px;
+}
+
+.room-rate {
+    color: #f19116;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: 150;
+    margin-left: 15px;
+}
+
+.location-icon {
+    height: 5vh;
+    width: 5vw;
+    margin: 5px;
+}
+
+.address {
+    color: #ffffff;
+    margin: 4px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.room-desprition {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #f19116;
+    margin: 10px;
+}
+
+.room-details {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #f19116;
+    margin: 10px;
+    color: #ffffff;
+
+}
+
+
+
+
+9  Responsive Color Palette (with col-12)
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="color-palette-heading">Responsive Color Palette</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-7 col-xl-3 mb-3">
+                <div class="color-box bg-primary">
+                    <p class="color-name">primary</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-4 col-md-6 col-lg-2  col-xl-5  mb-3">
+                <div class="color-box bg-secondary">
+                    <p class="color-name">Secondary</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-2 col-lg-3  col-xl-2  mb-3">
+                <div class="color-box bg-success">
+                    <p class="color-name">success</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-10 col-lg-3  col-xl-2  mb-3">
+                <div class="color-box bg-info">
+                    <p class="color-name">Info</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-10 col-lg-7  col-xl-5  mb-3">
+                <div class="color-box bg-warning">
+                    <p class="color-name">warning</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-2 col-lg-2  col-xl-7  mb-3">
+                <div class="color-box bg-danger">
+                    <p class="color-name">danger</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.color-palette-heading {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.color-box {
+    padding: 10px;
+}
+
+.color-name {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+10 VR Website Optics and Controllers Section ( with ORDER)
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="pt-3 pb-3">
+        <div class="vr-bg-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  col-md-6 order-1 order-md-2">
+                        <div class="p-4">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png" class="vr-item-image" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-2 order-md-1">
+                        <div class="p-4">
+                            <h1 class="vr-item-heading">Improved Optics</h1>
+                            <p class="vr-item-description">A virtual reality headset is a head-
+                                mounted device that provides virtual reality for the wearer.</p>
+                            <button class="button"> Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-md-6 order-1 order-md-1">
+                        <div class="p-4">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png" class="vr-item-image" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-2  order-md-2">
+                        <div class="p-4">
+                            <h1 class="vr-item-heading">Two Touch Controllers</h1>
+                            <p class="vr-item-description">Your Oculus Touch controllers are a pair
+                                of tracked controllers that give you a hand.
+                            </p>
+                            <button class="button"> Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.vr-bg-section {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.vr-item-image {
+    height: 300px;
+    width: 300px;
+}
+
+.vr-item-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.vr-item-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.button {
+    background-color: #1a2137;
+    height: 40px;
+    width: 136px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+11  VR Website Trending Blogs Section (with ORDER nad SHADOW)
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="trending-bg-section pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="trending-heading m-2 pb-2">Trending Blogs</h1>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="shadow m-3 p-2">
+                        <div class="trending-heading-section">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="trending-blogs-image" />
+                            <h1 class="trending-company">Amazon</h1>
+                            <p class="product-description">New way to see the World. It is a simulated experence
+                                can be completly different from the real world. </p>
+                            <a class="read-more">READ MORE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="shadow m-1 p-2">
+                        <div class="trending-heading-section">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="trending-blogs-image" />
+                            <h1 class="trending-company">Adverrtising</h1>
+                            <p class="product-description">The best one for you.Come experince the wonder of google Eart
+                                in virtual reality</p>
+                            <a class="read-more">READ MORE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-end">
+                    <button class="button mt-2">View All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.trending-bg-section {
+    background-size: cover;
+}
+
+.trending-heading {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.trending-blogs-image {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.trending-company {
+    color: #959ead;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.product-description {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.read-more {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.button {
+    background-color: #1754a1;
+    color: #ffffff;
+    text-align: right;
+
+}
+
+
+
+12  Portfolio Website Navbar & Banner Section
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">J.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recent Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonital</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center ml-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="banner-section-image " />
+                    <div class="col-12 col-7 oder-2 oder-md-1 d-flex flex-column justify-content-center">
+                        <h1 class="banner-section-heading">Hey,I am <span class="name">Jenny</span></h1>
+                        <p class="banner-description">Iam a Frontend Developer & Mentor</p>
+
+                        <button class="banner-button">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.banner-section-image {
+    width: 250px;
+    margin-bottom: 12px;
+
+}
+
+.banner-section-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.name {
+    color: #4b6cc1;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: "Roboto";
+
+}
+
+.banner-description {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-family: "Roboto";
+
+}
+.banner-button {
+    background-color: #4b6cc1;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+13 Ecommerce Website Navbar & Banner Section(with Carosel)
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="diwali-fly-buy-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" class="logo-image" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">servece</a>
+                                <a class="nav-link" href="#">products</a>
+                                <a class="nav-link" href="#">Explore Deals & offers</a>
+                                <a class="nav-link" href="#">Trending Blogs</a>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-sm-img.png" class="d-done d-md-inline w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-sm-img.png" class="d-done d-md-inline w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-sm-img.png" class="d-done d-md-inline w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo-image {
+    height: 50px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+14 Navbar & Banner Section (design - blue)
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <img src="https://assets.ccbp.in/frontend/responsive-website/landing-section-design-logo-img.png" class="logo" />
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto ">
+                <a class="nav-link active" href="#">Home <span class="nav-element">(current)</span></a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Concats</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="flexible-bg-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column text-center">
+                        <h1 class="flexble-heading   pb-5 pt-5">
+                            The most <span class="fexible">flexble</span> web design tool
+                        </h1>
+                        <p class="flexible-description  text-center ">We're it carefully amnd simply,
+                            Combined with the ingretedts makes for beatuyful landings.It is the
+                            tool you need to speed up your design progress.</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <button class="button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    height: 35px;
+    width: 140px;
+
+}
+
+.flexible-bg-image {
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.flexble-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+}
+
+.fexible {
+    color: #FFDDA9;
+}
+
+.flexible-description {
+    color: white;
+}
+
+.button {
+    background-color: #FFDDA9;
+    border-radius: 80px;
+    width: 25%;
+}
+
+
+
+
+
+
+
+15  DIWALI PACK - SHOW THE ITEM RATES
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBn+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="diwali-top-section">
+        <h1 class="diwali-top-section-heading">
+            Celebrate Diwali with your friends
+        </h1>
+    </div>
+    <div class="diwali-bottom-section">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="diwali-card-item">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                <p class="diwali-card-price">Rs 369</p>
+            </div>
+
+            <div class="diwali-card-item">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                <p class="diwali-card-price">Rs 50</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="diwali-card-item">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                <h1 class="diwali-card-name">Sparklers</h1>
+                <p class="diwali-card-price">Rs 150</p>
+            </div>
+
+            <div class="diwali-card-item">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                <h1 class="diwali-card-name">Fire Cracker</h1>
+                <p class="diwali-card-price">Rs 560</p>
+            </div>
+        </div>
+        <button class="btn btn-primary">View More</button>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+16 prodcasts - show NEXT,PREVIOUS BUTTONS
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionPodcastsHomePage">
+        <div class="podcasts-bg-home-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png" class="podcast-bg-image" />
+            <h1 class="podcasts-heading">Podcasts</h1>
+        </div>
+        <div class="podcast-home-cotainer">
+            <div class="d-flex flex-row">
+                <div class="details-card" onclick="display('sectionPuriJannadhPodcasts')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                    <h1 class="podcast-name">Puri Jagannadh</h1>
+                    <p class="podcast-unit"> 24 Episodes</p>
+                </div>
+                <div class="details-card" onclick="display('sectionTedxTalkpodcast')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                    <h1 class="podcast-name">Tedxtalks </h1>
+                    <p class="podcast-unit">12 Episodes</p>
+                </div>
+            </div>
+            <div class="podcasts-row d-flex flex-row">
+                <div class="details-card" onclick="display('sectionSadhgurupodcast')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                    <h1 class="podcast-name"> sadhguru</h1>
+                    <p class="podcast-unit">49 Episodes</p>
+                </div>
+                <div class="details-card" onclick="display('sectionOnpurposepodcast')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                    <h1 class="podcast-name"> On pupose</h1>
+                    <p class="podcast-unit">49 Episodes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPuriJannadhPodcasts">
+        <div class="podcasts-bg-color-container">
+            <div class="podcast-header d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                <div class="podcast-page-container">
+                    <p class="category">Poducast</p>
+                    <h1 class='podcast-page-name'> Puri Jagannadh<br />Podcasts</h1>
+                    <p class="podcast-caption"> The Puri Jagannadh podcasts</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Molecular Gasronomy</h1>
+                    <p class="podcast-description">Anything happens there it<br />will not cook....</p>
+                    <p class="podcost-duretion"> 15 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Mystrious Book</h1>
+                    <p class="podcast-description">The Voynich manuscript is<br />the 15th cenury book...</p>
+                    <p class="podcost-duretion"> 12 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Predator Drone</h1>
+                    <p class="podcast-description">The most power full drone.<br />it is 10 feet height...</p>
+                    <p class="podcost-duretion"> 10 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Paella</h1>
+                    <p class="podcast-description">The national dish of spain.it<br />was first star..</p>
+                    <p class="podcost-duretion"> 6 min</p>
+                </div>
+            </div>
+            <button class="button btn-primary" onclick="display('sectionPodcastsHomePage')">Back
+            </button>
+            <button class="button btn-primary" onclick="display('sectionTedxtalkpodcast')">Next
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <div id="sectionTedxtalkpodcast">
+        <div class="podcasts-bg-color-container">
+            <div class="podcast-header d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                <div class="podcast-page-container">
+                    <p class="category">Poducast</p>
+                    <h1 class='podcast-page-name'> The Tedx<br />Podcasts</h1>
+                    <p class="podcast-caption"> The tedx podcasts</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">The scince of friction</h1>
+                    <p class="podcast-description">Tribology: it's a funny<br />sounding word you might....</p>
+                    <p class="podcost-duretion"> 12 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Unleash you</h1>
+                    <p class="podcast-description">What canb we learn from the<br />world's most enduringly...</p>
+                    <p class="podcost-duretion"> 8 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">3 psychological tricks</h1>
+                    <p class="podcast-description">We all want to save more<br />money--but overall,...</p>
+                    <p class="podcost-duretion"> 10 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">The case for stuybbon</h1>
+                    <p class="podcast-description">This decade is a moment of<br />choice unlike any we..</p>
+                    <p class="podcost-duretion"> 12 min</p>
+                </div>
+            </div>
+            <button class="button btn-primary" onclick="display('sectionPodcastsHomePage')">Back
+            </button>
+            <button class="button btn-primary" onclick="display('sectionPuriJagannadhpodcast')">Preview
+            </button>
+            <button class="button btn-primary" onclick="display('sectionSadhgurupodcast')">Next
+            </button>
+        </div>
+    </div>
+
+    <div id="sectionSadhgurupodcast">
+        <div class="podcasts-bg-color-container">
+            <div class="podcast-header d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                <div class="podcast-page-container">
+                    <p class="category">Poducast</p>
+                    <h1 class='podcast-page-name'> The Sadhuguru<br />Podcasts</h1>
+                    <p class="podcast-caption"> The sadhuguru podcasts</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Head or heart</h1>
+                    <p class="podcast-description">Sadhuguru shares his <br />wishdom obn how to make....</p>
+                    <p class="podcost-duretion"> 16 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">How to equip yourself</h1>
+                    <p class="podcast-description">Society and human<br />inreactions are going....</p>
+                    <p class="podcost-duretion"> 13 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">How not to get irritated</h1>
+                    <p class="podcast-description">how do you see an<br />unpleasant spouse the....</p>
+                    <p class="podcost-duretion"> 15 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Isha Kriya</h1>
+                    <p class="podcast-description">Rooted in the timeless<br />wisdom if the yogic....</p>
+                    <p class="podcost-duretion"> 16 min</p>
+                </div>
+            </div>
+            <button class="button btn-primary" onclick="display('sectionPodcastsHomePage')">Back
+            </button>
+            <button class="button btn-primary" onclick="display('sectionTedxtalkpodcast')">Preview
+            </button>
+            <button class="button btn-primary" onclick="display('sectionOnpurposepodcast')">Next
+            </button>
+        </div>
+    </div>
+
+    <div id="sectionOnpurposepodcast">
+        <div class="podcasts-bg-color-container">
+            <div class="podcast-header d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                <div class="podcast-page-container">
+                    <p class="category">Poducast</p>
+                    <h1 class='podcast-page-name'> On Purpose with<br />Jay</h1>
+                    <p class="podcast-caption"> The Jay Shetty podcasts</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Patrik Bet Daviud</h1>
+                    <p class="podcast-description">Are you entrepreneur or <br />have dreams of mental...</p>
+                    <p class="podcost-duretion"> 10 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle"> 5 Techniques to cope</h1>
+                    <p class="podcast-description">Does anxiety looms around<br />every corner of your....</p>
+                    <p class="podcost-duretion"> 4 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">Radhanath Swami ON</h1>
+                    <p class="podcast-description">World-renowned sprituual<br />leader and philanthropist....</p>
+                    <p class="podcost-duretion"> 12 min</p>
+                </div>
+            </div>
+            <div class="podcast-episode-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="podcast-image" />
+                <div class="pocast-text-container">
+                    <h1 class="podcast-tittle">3 Ways to let go</h1>
+                    <p class="podcast-description">Do the opinions of othes<br />veer you from the core....</p>
+                    <p class="podcost-duretion"> 13 min</p>
+                </div>
+            </div>
+            <button class="button btn-primary" onclick="display('sectionPodcastsHomePage')">Back
+            </button>
+            <button class="button btn-primary" onclick="display('sectionSadhgurupodcast')">Preview
+            </button>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.podcasts-bg-home-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.podcast-bg-image {
+    height: 100px;
+    width: 102px;
+    padding: 10px;
+}
+
+.podcasts-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 200;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.podcasts-card-container {
+    padding: 15px;
+}
+
+.details.card {
+    margin: 10px;
+    text-align: center;
+}
+
+.podcasts-image {
+    height: 70px;
+    width: 50px;
+    margin: 25px;
+}
+
+.podcast-name {
+    font-family: "roboto";
+    font-size: 200;
+    font-weight: bold;
+    color: #151765;
+    margin: 10px;
+    text-align: center;
+}
+
+.podcast-unit {
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: bold;
+    color: #5a7184;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.podcasts-bg-color-container {
+    background-color: #151765;
+    height: 70vh;
+    background-size: cover;
+
+}
+
+.category {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.podcast-page-name {
+    font-family: "roboto";
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.podcast-caption {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.podcast-tittle {
+    color: #151765;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.podcast-description {
+    font-family: "roboto";
+    font-size: 25px;
+    color: #5a7184;
+    padding: 10px;
+}
+
+.podcost-duretion {
+    font-size: 20px;
+    margin-left: 5px;
+    color: #f50af1;
+}
+
+.button {
+    text-align: bottom left;
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+                    
+
+
+
+17 Popular Books
+
+
+
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionBookStoreHome">
+        <div class="book-store-home-page">
+            <h1 class="home-page-heading"> Popular Book</h1>
+            <div class="popular-book-container d-flex fiex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="popular-book-image" />
+                <div class="popular-book-page-container d-flex flex-column">
+                    <h1 class="popular-book-page-main-heading"> Wings of Fire</h1>
+                    <p class="popular-book-page-description"> An Autobiography<br /> of Abdul Kalam</p>
+                    <p class="book-page-autor"> by Arun Tiwari</p>
+                </div>
+                <button class="button btn-primary" onclick="display('sectionWinsofFirebookdetails')"> Read Now</button>
+            </div>
+        </div>
+        <h1 class="recommended-book-heading">Recommended Books</h1>
+        <div class="recommeded-book-details d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="recommeded-book-image" />
+            <div class="recommeded-book-details d-flex flex-column">
+                <h1 class="mistacke-heading">The 3 mistakes of my life</h1>
+                <p class="mistake-text">Indian autour<br /> by Chetan Bhagat</p>
+                <button class="button btn-primary" onclick="display('sectionThe3MistackesBookDetails')">Read Now</button>
+
+            </div>
+            <div class="recommeded-book-details d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="recommeded-book-image" />
+
+                <div class="recommeded-book-short-details-container">
+                    <h1 class="recommeded-heading">Harry Potter</h1>
+                    <p class="recommeded-text">and the Sorecerer's Stone<br />
+                        by J.K.Rowting</p>
+                    <button class="button btn-primary" onclick="display('sectionHarryPotterBookDetails')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWinsofFirebookdetails">
+        <div class="wings-book-page">
+            <div class="wings-book-page d-flex flex-column justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wings-book-page-image" />
+                <h1 class="wings-heading">Wings Of Fire</h1>
+                <p class="author"> by Arun Tiwari</p>
+                <p class="wings-description"> Every common man who by his sheer gift hard work<br />achleves success should share his story with the rest for
+                    they may find inspiration and stength to go on,in his
+                    story.The 'Wings of Fire' is one such autobiography by
+                    visionary scientist Dr.APJ Abdul Kalam,who from Every
+                    humble beginnings rose to be the president of Indian.
+                    The book is full of insights,personal moments and life
+                    experinceces of Dr.Kalam.It's gives us an undestanding
+                    his journey of success.</p>
+                <button class="button btn-warning" onclick="display('sectionBookStoreHome')">Back</button>
+                <button class="button btn-primary"> Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionThe3MistackesBookDetails">
+        <div class="wings-book-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="wings-book-page-image" />
+            <h1 class="wings-heading">The 3 mistakes of my life</h1>
+            <p class="author"> by Chetan Bhagat</p>
+            <p class="wings-description">The 3 Mistakes of my life is the third novel written by
+                eminment indain Author Chetan Bhagat. Based on cricket,business and religion
+                the novel is set against the backdrop of beatutifui city Ahmedabad.Revolving
+                around three young indain boys oml,Ishaan and Govind, the book goes on to naratte
+                how the three are trying their best to make ends in the city,Baced on real events,
+                the book stars wich a dramatic twist,where Bhagat is reading an e-mail
+                sent by young person Govind</p>
+            <button class="button btn btn-warning" onclick="display('sectionBookStoreHome')">Back</button>
+            <button class="button btn-primary"> Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionHarryPotterBookDetails">
+        <div class="wings-book-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="wings-book-page-image" />
+            <h1 class="wings-heading">Harry Potter</h1>
+            <p class="author"> by J.K.Rowling</p>
+            <p class="wings-description"> Harry potter's life miserbole. His parents are dead and
+                he's struck with his heartless relatives,who force him tolive in atiny closet under
+                the stars. But his fortune changes when he receives a latter that tells him the
+                about himself: he's wizard.Amysterious visitor rescues him from his relatives and
+                takes him ti his new home,Hogwarts School of Witchraft and Wizardy.After alifetime of
+                bottling up his magical powers,Harry Potter finally feels like a normal kid.</p>
+            <button class="button btn btn-warning" onclick="display('sectionBookStoreHome')">Back</button>
+            <button class="button btn-primary"> Buy Now</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.book-store-home-page {
+    background-color: #1b1b1b;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-page-heading {
+    font-family: "roboto";
+    font-size: 50px;
+    color: #ffc905;
+}
+
+.popular-book-container {
+    background-color: #e6f6ff;
+    border-radius: 8px;
+}
+
+.popular-book-image {
+    height: 125px;
+    width: 170px;
+}
+
+.popular-book-page-container {
+    padding: 10px;
+}
+
+.popular-book-page-description {
+    font-family: "bree serif";
+    font-size: 10px;
+    color: #1b1b1b;
+}
+
+.popular-book-page-main-heading {
+    font-family: "bree serif";
+    font-size: 16px;
+    color: #1b1b1b;
+}
+
+.book-page-autor {
+    font-family: "roboto";
+    font-size: 8px;
+    color: #1b1b1b;
+}
+
+.button {
+    font-family: "rpboto";
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.recommended-book-heading {
+    font-family: "roboto";
+    font-size: 20px;
+    margin-top: 10px
+}
+
+.recommeded-book-image {
+    height: 80px;
+    width: 125px;
+}
+
+.mistacke-heading {
+    font-family: "bree serif";
+    font-size: 15px;
+    padding: 5px;
+}
+
+.mistake-text {
+    font-size: 10px;
+    font-family: "roboto";
+    margin: 5px;
+
+
+}
+
+.recommeded-book-short-details-container {
+    margin-left: 10px;
+}
+
+.harry-potter-book-image {
+    height: 150px;
+    width: 125px;
+}
+
+.recommended-book-name {
+    color: #e4e7eb;
+    font-family: "bree serif";
+    font-size: 12px;
+
+}
+
+.wings-book-page {
+    background-color: #1b1b1b;
+    padding: 10px;
+}
+
+.wings-book-page-image {
+    height: 150px;
+    width: 130px;
+}
+
+.wings-heading {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+
+.author {
+    color: #ffffff;
+    font-family: "bree serif";
+    font-size: 12px;
+}
+
+.wings-description {
+    color: #ffffff;
+    text-align: left;
+    font-family: "bree serif";
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+
+
+18 NEWS PAPER
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-column justify-content-end">
+        <div class="paper-card">
+            <p class="news-day"> NEWS OF THE DAY</p>
+            <h1 class="news-title"> IB Cricet announces World's fiorst Virtual Reality Cricet League</h1>
+            <p class="paragraph"> IB Cricet and viu together have announced World's first virtual realtiy Cricet
+                league featuring 12 international crickes's who will be competing againist each other
+                for the IB Cricket Super over league tittle in Mumbai.lconic cricketers like Virender Sehwag,
+                Suresh Raina, Brendon Mccullum wi9ll be competing in the league</p>
+            <button class="button"> Read more</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.paper-card {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+}
+
+.news-day {
+    font-family: "roboto";
+    color: #7b8794;
+    font-size: 20px;
+}
+
+.news-title {
+    font-family: "roboto";
+    color: #323f4b;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #7b8794;
+}
+
+.button {
+    background-color: #323f4b;
+    height: 30px;
+    width: 120px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 400;
+    border-width: 10px;
+}
+
+
+
+
+
+19  Grocery List (with CSS and JS) use checkBox
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: green;
+    padding: 30px;
+    height: 100vh;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    background-color: white;
+    border-radius: 6px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.delivery-text {
+    font-family: "Roboto";
+    color: white;
+    font-size: 16px;
+}
+
+let bgContainerEl = document.createElement('div');
+bgContainerEl.classList.add("bg-container");
+document.body.appendChild(bgContainerEl);
+
+let headingEl = document.createElement('h1');
+headingEl.classList.add('heading');
+headingEl.textContent = "Grocery List";
+bgContainerEl.appendChild(headingEl);
+
+let listContainerEl = document.createElement('ul');
+listContainerEl.classList.add('list-container');
+bgContainerEl.appendChild(listContainerEl);
+
+let GroceryItems = ['Milk', 'peanut Butter', 'Chocko Chips', 'Tamoto Sauce', 'Cups Cakes', 'Noodels'];
+for (let GroceryItem of GroceryItems) {
+    let listItem = document.createElement('li');
+    listItem.textContent = GroceryItem;
+    listContainerEl.appendChild(listItem);
+}
+
+let checkboxEl = document.createElement('input');
+checkboxEl.type = "checkbox";
+checkboxEl.id = "deliverymode";
+bgContainerEl.appendChild(checkboxEl);
+
+let labelEl = document.createElement('label');
+labelEl.setAttribute("for", "deliverymode");
+labelEl.classList.add("delivery-text");
+labelEl.textContent = "Need Home Delivery";
+bgContainerEl.appendChild(labelEl);
+
+let brEl = document.createElement('br');
+bgContainerEl.appendChild(brEl);
+
+let btnEl = document.createElement('button');
+btnEl.classList.add("btn", "btn-primary");
+btnEl.textContent = "Proced To Pay";
+bgContainerEl.appendChild(btnEl);
+
+console.log(bgContainerEl);
+
+
+
+
+
+                                            
+20 Guess The Number  --it's shows 1 to 100 numbers (game)
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row bg-white">
+            <div class="col-12 col-md-6 m-auto bg-white pt-5 pb-5">
+                <img class="guess-game-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" />
+                <p class="text-center game-description">
+                    Find out the right number between 1 to 100
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 guess-bg-container text-center">
+                <h1 class="guess-heading">
+                    Guess The Number
+                    <img class="guess-number-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" />
+                </h1>
+                <input type="text" class="user-input" id="userInput" />
+                <div>
+                    <button class="btn btn-info check-guess" onclick="checkGuess()">
+                        Check
+                    </button>
+                </div>
+                <p class="game-result" id="gameResult"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #246db6;
+    height: 100vh;
+}
+
+.guess-game-img {
+    width: 100%;
+}
+
+.game-description {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    color: #323f4b;
+    margin-top: 20px;
+}
+
+.guess-bg-container {
+    background-color: #246db6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.guess-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+    font-size: 34px;
+}
+
+.guess-number-image {
+    width: 50px;
+}
+
+.user-input {
+    width: 300px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+    color: #1f2933;
+    padding: 10px;
+    text-align: center;
+}
+
+.game-result {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.check-guess {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    width: 170px;
+}
+
+let gameResult = document.getElementById("gameResult");
+let userInput = document.getElementById("userInput");
+let randomNumber = Math.ceil(Math.random() * 100);
+
+
+function checkGuess() {
+    let geuessedNumber = parseInt(userInput.value);
+
+    if (geuessedNumber > randomNumber) {
+        gameResult.textContent = "Too Higy! Try again..";
+        gameResult.style.backgroundColor = "purple";
+    } else if (geuessedNumber < randomNumber) {
+        gameResult.textContent = "Too Low! Try again..";
+        gameResult.style.backgroundColor = "orange";
+    } else if (geuessedNumber === randomNumber) {
+        gameResult.textContent = "Congrtulations!! you got it right";
+        gameResult.style.backgroundColor = "green";
+    } else {
+        gameResult.textContent = "Please provide a valid input.!!";
+        gameResult.style.backgroundColor = "red";
+    }
+
+}
+
+
+
+
+
+
+21 Counter - DECREASE and RESET and INCREASE
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container text-center d-flex flex-column justify-content-center">
+        <h1 class="counter-heading">Counter</h1>
+        <p id="counterValve" class="counter-value">0</p>
+        <div>
+            <button class="button" onclick="onDecrement()">DECREASE</button>
+            <button class="button" onclick="onReset()">RESET</button>
+            <button class="button" onclick="onIcreament()">INCREASE</button>
+        </div>
+    </div>
+</body>
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    height: 100vh;
+    background-color: #f1f5f8;
+}
+
+.counter-heading {
+    font-size: 50px;
+    font-family: "Roboto";
+    font-weight: 800;
+}
+
+.counter-value {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.button {
+    margin: 8px;
+    border-radius: 7px;
+    padding: 5px;
+    border-width: 2px;
+    border-color: black;
+    background-color: #f1f5f8;
+}
+
+let counterElement = document.getElementById("counterValve");
+
+function onIcreament() {
+    let previousCounterValue = counterElement.textContent;
+    let updatedCounterValue = parseInt(previousCounterValue) + 1;
+    counterElement.textContent = updatedCounterValue;
+    if (updatedCounterValue > 0) {
+        counterElement.style.color = "green";
+    } else if (updatedCounterValue < 0) {
+        counterElement.style.color = "red";
+    } else {
+        counterElement.style.color = "black";
+    }
+}
+
+
+function onDecrement() {
+    let previousCounterValue = counterElement.textContent;
+    let updatedCounterValue = parseInt(previousCounterValue) - 1;
+    counterElement.textContent = updatedCounterValue;
+
+    if (updatedCounterValue > 0) {
+        counterElement.style.color = "green";
+    } else if (updatedCounterValue < 0) {
+        counterElement.style.color = "red";
+    } else {
+        counterElement.style.color = "black";
+    }
+
+}
+
+function onReset() {
+    let updatedCounterValue = 0;
+    counterElement.textContent = updatedCounterValue;
+
+    if (updatedCounterValue > 0) {
+        counterElement.style.color = "green";
+    } else if (updatedCounterValue < 0) {
+        counterElement.style.color = "red";
+    } else {
+        counterElement.style.color = "black";
+    }
+}
+
+
+
+
+
+22 Update Password
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container p-4">
+        <h1 class="form-heading text-center">Update Password</h1>
+
+        <form id="updatePasswordForm" class="p-4">
+
+            <div class="mb-3">
+                <label for="newPassword" class="input-label">NEW PASSWORD</label>
+                <input type="password" class="form-control" id="newPassword" placeholder="Create new password" />
+                <p id="newPasswordErrMsg" class="error-message mt-1"></p>
+            </div>
+            <div class="mb-3">
+                <label for="confirmPassword" class="input-label">CONFIRM PASSWORD</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="confirm password" />
+                <p id="confirmPasswordErrMsg" class="error-message mt-1"></p>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" id="updateBtn">Update</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: linear-gradient(to bottom, #ffa6b7, #1e2ad2);
+    height: 100vh;
+}
+
+.error-message {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: red;
+    color: #ff0000;
+}
+
+.input-label {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+let updatePasswordFormEl = document.getElementById("updatePasswordForm");
+
+let newPasswordEl = document.getElementById("newPassword");
+let newPasswordErrMsgEl = document.getElementById("newPasswordErrMsg");
+
+let confirmPasswordEl = document.getElementById("confirmPassword");
+let confirmPasswordErrMsgEl = document.getElementById("confirmPasswordErrMsg");
+
+let validateNewPassword = function() {
+    if (newPasswordErrMsgEl.value === "") {
+        newPasswordErrMsgEl.textContent = "Required*";
+    } else {
+        newPasswordErrMsgEl.textContent = "";
+    }
+};
+
+let validatedConfirmPassword = function() {
+    let newPassword = newPasswordEl.value;
+    let confirmPassword = confirmPasswordEl.value;
+
+    if (newPassword !== confirmPassword) {
+        confirmPasswordErrMsgEl.textContent = "Passwords must be same";
+    } else {
+        confirmPasswordErrMsgEl.textContent = "";
+    }
+};
+
+newPasswordEl.addEventListener("blur", validatedConfirmPassword);
+confirmPasswordEl.addEventListener("blur", validatedConfirmPassword);
+
+updatePasswordFormEl.addEventListener("submit", function(event) {
+    event.preventDefault();
+    validateNewPassword();
+    validatedConfirmPassword();
+});
+
+
+
+
+
+
+23  Wikipedia Search Application
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="wiki-search-header text-center">
+            <img class="wiki-logo" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/wiki-logo-img.png" />
+            <br />
+            <input placeholder="Type a keyword and press Enter to search" type="search" class="search-input w-100" id="searchInput" />
+        </div>
+        <div class="d-none" id="spinner">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                </div>
+            </div>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    font-family: "Roboto";
+}
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.wiki-logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+}
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+.result-item {
+    margin-bottom: 20px;
+}
+.result-title {
+    font-size: 22px;
+}
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+let searchInputEl = document.getElementById("searchInput");
+let searchResultsEl = document.getElementById("searchResults");
+let spinnerEl = document.getElementById("spinner");
+
+function crateAndAppendSearchResult(result) {
+    let {
+        link,
+        title,
+        description
+    } = result;
+
+    let resultItemEl = document.createElement("div");
+    resultItemEl.classList.add("result-item");
+
+    let titleEl = document.createElement("a");
+    titleEl.href = link;
+    titleEl.target = "_blank";
+    titleEl.textContent = title;
+    titleEl.classList.add("result-title");
+    resultItemEl.appendChild(titleEl);
+
+    let titleBreakEl = document.createElement("br");
+    resultItemEl.appendChild(titleBreakEl);
+
+    let urlEl = document.createElement("a");
+    urlEl.classList.add("result-url");
+    urlEl.href = link;
+    urlEl.target = "_blank";
+    urlEl.textContent = link;
+    resultItemEl.appendChild(urlEl);
+
+    let linkBreakEl = document.createElement("br");
+    resultItemEl.appendChild(linkBreakEl);
+
+    let descriptionEl = document.createElement("p");
+    descriptionEl.classList.add("link-description");
+    descriptionEl.textContent = description;
+    resultItemEl.appendChild(descriptionEl);
+
+    searchResultsEl.appendChild(resultItemEl);
+}
+
+function displayResults(searchResults) {
+    spinnerEl.classList.add("d-done");
+
+    for (let result of searchResults) {
+        crateAndAppendSearchResult(result);
+    }
+}
+
+function searchWikipedia(event) {
+    if (event.key === "Enter") {
+
+        spinnerEl.classList.remove("d-done");
+        searchResultsEl.textContent = "";
+
+        let searchInput = searchInputEl.value;
+        let url = "https://apis.ccbp.in/wiki-search?search=" + searchInput;
+        let options = {
+            method: "GET"
+        };
+
+        fetch(url, options)
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(jsonData) {
+                let {
+                    search_results
+                } = jsonData;
+                displayResults(search_results);
+            });
+    }
+}
+
+searchInputEl.addEventListener("keydown", searchWikipedia);
+
+
+
+
+
+24  COLOR PICKER
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="colorPickerContainer" class="color-picker-container d-flex flex-column justify-content-center">
+        <h1 class="color-picker-heading">Color Picker</h1>
+        <div class="mt-3 mb-3">
+            <button class="button button-1" id="button1" onclick="changeBgToGreyAndUpdateText()">#e0e0e0</button>
+            <button class="button button-2" id="button2" onclick="changeBgToGreenAndUpdateText()">#6fcf97</button>
+            <button class="button button-3" id="button3" onclick="changeBgToBlueAndUpdateText()">#56ccf2</button>
+            <button class="button button-4" id="button4" onclick="changeBgToPurpleAndUpdateText()">#bb6bd9</button>
+        </div>
+        <p class="selected-color-text">Background Color : <span class="selected-color-hex-code" id="selectedColorHexCode">#fffff</span></p>
+        <p class="color-picker-instruction">Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.color-picker-container {
+    background-color: #ffffff;
+    height: 100vh;
+}
+.color-picker-heading {
+    font-family: "Open Sean";
+    font-size: 50px;
+    font-weight: 800;
+}
+.button {
+    font-family: "Open Sean";
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.button-1 {
+    background-color: #e0e0e0;
+}
+.button-2 {
+    background-color: #6fcf97;
+}
+.button-3 {
+    background-color: #56ccf2;
+}
+.button-4 {
+    background-color: #bb6bd9;
+}
+.selected-color-text {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: "Open Sean";
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 16px;
+}
+.selected-color-hex-code {
+    color: #49a6a9;
+}
+.color-picker-instruction {
+    font-family: "Open Sean";
+    font-size: 20px;
+}
+
+let colorPickerContainerElement = document.getElementById("colorPickerContainer");
+let selectedColorHexCodeElement = document.getElementById("selectedColorHexCode");
+
+function changeBgToGreyAndUpdateText() {
+    colorPickerContainerElement.style.backgroundColor = "#e0e0e0";
+    selectedColorHexCodeElement.textContent = "#e0e0e0";
+}
+
+function changeBgToGreenAndUpdateText() {
+    colorPickerContainerElement.style.backgroundColor = "#6fcf97";
+    selectedColorHexCodeElement.textContent = "#6fcf97";
+}
+
+function changeBgToBlueAndUpdateText() {
+    colorPickerContainerElement.style.backgroundColor = "#56ccf2";
+    selectedColorHexCodeElement.textContent = "#56ccf2";
+}
+
+function changeBgToPurpleAndUpdateText() {
+    colorPickerContainerElement.style.backgroundColor = "#bb6bd9";
+    selectedColorHexCodeElement.textContent = "#bb6bd9";
+}
+
+
+                    
+
+
+
+
+25 . TRAFFIC LIGHT
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="traffic-light-container">
+        <h1 class="traffic-light-heading text-center">Traffic Light</h1>
+        <div class="d-flex flex-row justify-content-center m-5">
+            <div class="d-flex flex-column">
+                <button id="stopButton" class="button" onclick="turnOnRed()">Stop</button>
+                <button id="readyButton" class="button" onclick="turnOnYellow()">Ready</button>
+                <button id="goButton" class="button" onclick="turnOnGreen()">Go</button>
+            </div>
+            <div class="traffic-light">
+                <div id="stopLight" class="bulb"></div>
+                <div id="readyLight" class='bulb'></div>
+                <div id="goLight" class="bulb"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.traffic-light-container {
+    background-color: #86d2f2;
+    padding: 20px;
+}
+
+.traffic-light-heading {
+    color: #1f1d41;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #1f1d41;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 70px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.traffic-light {
+    background-color: #1f1d41;
+    width: 100px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: 25px;
+    padding: 25px;
+}
+
+.bulb {
+    background-color: #4b5069;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+let stopLightElement = document.getElementById("stopLight");
+let readyLightElement = document.getElementById("readyLight");
+let goLightElement = document.getElementById("goLight");
+let stopButtonElement = document.getElementById("stopButton");
+let readyButtonElement = document.getElementById("readyButton");
+let goButtonElement = document.getElementById("goButton");
+
+function turnOnRed() {
+    stopLightElement.style.backgroundColor = "#cf1124";
+    readyLightElement.style.backgroundColor = "#4b5069";
+    goLightElement.style.backgroundColor = "#4b5069";
+    stopButtonElement.style.backgroundColor = "#cf1124";
+    readyButtonElement.style.backgroundColor = "#1f1d41";
+    goButtonElement.style.backgroundColor = "#1f1d41";
+}
+
+function turnOnYellow() {
+    stopLightElement.style.backgroundColor = "#4b5069";
+    readyLightElement.style.backgroundColor = "#f7c948";
+    goLightElement.style.backgroundColor = "#4b5069";
+    stopButtonElement.style.backgroundColor = "#1f1d41";
+    readyButtonElement.style.backgroundColor = "#f7c948";
+    goButtonElement.style.backgroundColor = "#1f1d41";
+}
+
+function turnOnGreen() {
+    stopLightElement.style.backgroundColor = "#4b5069";
+    readyLightElement.style.backgroundColor = "#4b5069";
+    goLightElement.style.backgroundColor = "#199473";
+    stopButtonElement.style.backgroundColor = "#1f1d41";
+    readyButtonElement.style.backgroundColor = "#1f1d41";
+    goButtonElement.style.backgroundColor = "#199473";
+}
+
+
+
+
+
+
+26 Seasons Switcher with show tree pic
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="season-image d-inline d-md-none" id="seasonSmallImage" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="season-image d-none d-md-inline" id="seasonMediumImage" />
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <button class="button spring-button" id="springBtn" onclick="changeSeasonToSpring()">Spring</button>
+            <button class="button summer-button" id="summerBtn" onclick="changeSeasonToSummer()">Summer</button>
+            <button class="button autumn-button" id="autumnBtn" onclick="changeSeasonToAutumn()">Autumn</button>
+            <button class="button winter-button" id="winterBtn" onclick="changeSeasonToWinter()">Winter</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.season-image {
+    width: 100%;
+    height: 85vh;
+}
+.button {
+    color: white;
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 80px;
+    height: 32px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.spring-button {
+    background-color: #3a7333;
+}
+.summer-button {
+    background-color: #e0bb00;
+}
+.autumn-button {
+    background-color: #b04400;
+}
+.winter-button {
+    background-color: #0f7cb6;
+}
+
+let seasonSmallImageElement = document.getElementById("seasonSmallImage");
+let seasonMediumImageElement = document.getElementById("seasonMediumImage");
+
+let springSmallImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-spring-xs-img.png";
+let springMediumImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-spring-md-img.png";
+let summerSmallImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-summer-xs-img.png";
+let summerMediumImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-summer-md-img.png";
+let autumnSmallImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-autumn-xs-img.png";
+let autumnMediumImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-autumn-md-img.png";
+let winterSmallImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-xs-img.png";
+let winterMediumImage = "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-md-img.png";
+
+function changeSeasonToSpring() {
+    seasonSmallImageElement.src = springSmallImage;
+    seasonMediumImageElement.src = springMediumImage;
+
+}
+
+function changeSeasonToSummer() {
+    seasonSmallImageElement.src = summerSmallImage;
+    seasonMediumImageElement.src = summerMediumImage;
+
+}
+
+function changeSeasonToAutumn() {
+    seasonSmallImageElement.src = autumnSmallImage;
+    seasonMediumImageElement.src = autumnMediumImage;
+
+}
+
+function changeSeasonToWinter() {
+    seasonSmallImageElement.src = winterSmallImage;
+    seasonMediumImageElement.src = winterMediumImage;
+}
+
+
+
+
+
+
+
+27 Sizing an image (dog)
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-center text-md-left">
+                    <h1 class="sizing-an-image-heading">Sizing an Image</h1>
+                    <p class="sizing-an-image-description">Increase the width of an image by clicking the plus button and decrease by clicking the Minus button. For every action, the image increases or decreases by 5px.</p>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <p class="warning-message" id="warningMessage"></p>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sizing-an-image-img.png" alt="image" id="image">
+                    <p class="image-width">Width: <span id="imageWidth"></span></p>
+                </div>
+                <div class="col-12">
+                    <div class="buttons-container d-flex flex-row shadow m-auto">
+                        <button class="button" id="decrementButton" onclick="onDecrement()">-</button>
+                        <hr class="hr-line" />
+                        <span class="width-in-px">5px</span>
+                        <hr class="hr-line" />
+                        <button class="button" id="incrementButton" onclick="onIcrement()">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #f5f7fa;
+}
+
+.sizing-an-image-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.sizing-an-image-description {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.warning-message {
+    color: #cf1124;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.image-width {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buttons-container {
+    background-color: white;
+    width: 140px;
+}
+
+.button {
+    color: #323f4b;
+    background-color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    width: 35%;
+    height: 50px;
+    border-width: 0;
+}
+
+.hr-line {
+    background-color: black;
+    width: 1px;
+    height: 20px;
+}
+
+.width-in-px {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+let imageElement = document.getElementById("image");
+let imageWidthElement = document.getElementById("imageWidth");
+let warningMessageElement = document.getElementById("warningMessage");
+
+let imageMaxWidth = 300;
+let imageMinWidth = 100;
+let originalImageWidth = 200;
+let maxWidthWarningMeasage = "Too big.Deecrease the size of the Image.";
+let minWidthWarningMasseage = "Can't Visible.Increase the size of the Image";
+
+imageElement.style.width = originalImageWidth + "px";
+imageWidthElement.textContent = originalImageWidth + "px";
+
+function onIcrement() {
+    if (originalImageWidth >= imageMaxWidth) {
+        warningMessageElement.textContent = maxWidthWarningMeasage;
+    } else {
+        originalImageWidth = originalImageWidth + 5;
+        let updatedImageWidth = originalImageWidth + "px";
+
+        warningMessageElement.textContent = "";
+        imageElement.style.width = updatedImageWidth;
+        imageWidthElement.textContent = updatedImageWidth;
+    }
+}
+
+function onDecrement() {
+    if (originalImageWidth <= imageMinWidth) {
+        warningMessageElement.textContent = minWidthWarningMasseage;
+    } else {
+        originalImageWidth = originalImageWidth - 5;
+        let updatedImageWidth = originalImageWidth + "px";
+
+        warningMessageElement.textContent = "";
+        imageElement.style.width = updatedImageWidth;
+        imageWidthElement.textContent = updatedImageWidth;
+    }
+}
+
+
+
+
+
+
+28 Random Color Generator
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                <div class="text-center p-4">
+                    <h1 class="instruction">Click the below button to change color</h1>
+                    <button class="button" id="button" onclick="onChangeBgColor()">Click Me</button>
+                </div>
+            </div>
+            <div id="bgContainer" class="col-12 col-md-6 bg-container"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.instruction {
+    font-family: "Open Sans";
+}
+
+.button {
+    color: white;
+    background-color: #0967d2;
+    width: 150px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.bg-container {
+    height: 100vh;
+}
+
+let bgContainerElement = document.getElementById("bgContainer");
+let buttonElement = document.getElementById("button");
+
+let bgColorsArray = ["#e75d7c", "#b16cef", "#53cca4", "#efc84d", "#628ef0", "#184b73"];
+bgContainerElement.style.backgroundColor = bgColorsArray[0];
+
+function onChangeBgColor() {
+    let numberOfBgColors = bgColorsArray.length;
+    let randomBgColorIndex = Math.ceil(Math.random() * numberOfBgColors);
+
+    if (randomBgColorIndex === numberOfBgColors) {
+        randomBgColorIndex = numberOfBgColors - 1;
+    }
+    let randomBgColor = bgColorsArray[randomBgColorIndex];
+
+    bgContainerElement.style.backgroundColor = randomBgColor;
+}
+
+                                                                                   
