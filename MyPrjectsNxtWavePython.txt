@@ -1,0 +1,532 @@
+1. Reverse the digits
+
+word = input()
+first_digit = word[0]
+second_digit = word[1]
+reversed_num = second_digit + first_digit
+print(reversed_num)
+
+
+2. Star Repetion
+
+word = input()
+word_length = len(word)
+result = "*" * word_length
+print(result)
+
+
+3.Index of Last Character
+
+word = input()
+length_word = len(word)
+result = length_word
+print(result - 1)
+
+
+4.First Letters
+
+a = input()
+b = input()
+c = input()
+a = a[:1]
+b = b[:1]
+c= c[:1]
+print(a + b + c)
+
+
+5.First & Last Characters
+
+word = input()
+first_word = word[0]
+last_word = word[-1]
+print(first_word)
+print(last_word)
+
+
+6.Remainder
+
+dividend = int(input())
+divisor = int(input())
+quotient = int(dividend / divisor)
+reminder = dividend - (divisor * quotient)
+print(reminder)
+
+
+7.Sum Of The Digits
+
+word =  input()
+first_digit = int(word[0])
+second_digit = int(word[1])
+third_digit = int(word[2])
+result = first_digit + second_digit + third_digit
+print(result)
+
+
+8.Half String
+
+input_word = input()
+length = len(input_word)
+first_half = int(length/2)
+print(input_word[:first_half])
+
+
+9.Star Repetion
+
+word = input()
+length = len(word)
+number_of_characters_to_mask = length - 4
+masked_word = word[0:2] + "*" * number_of_characters_to_mask + word[length - 2:]
+print(masked_word)
+
+
+
+10.Skip the Fourth Character
+
+string = input()
+first_part = string[:3]
+second_part = string[4:]
+result = first_part + second_part
+print(result)
+
+
+11.
+Greater than 70
+# output Boolean
+
+number = int(input())
+result = number > 70
+print(result)
+
+
+12.Compare First Three Characters
+# output Boolean
+
+a = input()
+b = input()
+first_word = a[:3]
+second_word= b[:3]
+print(first_word == second_word)
+
+13.Positive Number 
+# use "or"
+
+first_number = int(input())
+second_number = int(input())
+result = (first_number > 0) or (second_number > 0)
+print(result)
+
+
+14.Negative Numbers
+# output use "and"
+
+first_number = int(input())
+second_number = int(input())
+result = (first_number < 0) and (second_number < 0)
+print(result)
+
+
+15.Eligibility Criteria
+# use "if" and "else"
+
+M = int(input())
+P = int(input())
+C = int(input())
+if (M + P + C >=180):
+    print("True")
+else:
+    print("False")
+
+
+16.Eligibility Criteria - 2
+# use "if" and "else"
+# use or and if else 
+
+
+M = int(input())
+P = int(input())
+C = int(input())
+if ((M + P >=100) or(M + C >=100)) and (M + P + C >=180):
+    print("True")
+else:
+    print("False")
+
+
+17.Special String
+#input1 NXT1234 input2 PRA49
+
+string = input()
+first_3_characters = string[0:3]
+is_equal = (first_3_characters == "NXT")
+
+number = string[3:]
+number = int(number)
+
+is_divisible_by_2 = (number % 2 == 0)
+is_divisible_by_7 = (number % 7 == 0)
+is_divisible_by_2_or_7 = is_divisible_by_2 or is_divisible_by_7
+result = is_equal and is_divisible_by_2_or_7
+if result:
+    print("Special String")
+else:
+    print("Not a Special String")
+
+
+
+18.Even_or_Odd
+
+number = int(input())
+is_divisble = (number % 2)
+if is_divisble == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+19.Pair of Number 
+# input 15 240
+
+first_number = int(input())
+second_number = int(input())
+
+is_divisible_by_3 = first_number % 3 == 0 and second_number % 3 == 0
+is_divisible_by_12 = first_number % 12 == 0 or second_number % 12 == 0
+
+result = is_divisible_by_3 and is_divisible_by_12
+if result:
+    print("Pair")
+else:
+    print("Not a Pair")
+
+
+20.Quotient_&_Remainder
+# input 5 2
+
+first_number = int(input())
+second_number = int(input())
+quotient = first_number / second_number
+quotient = int(quotient)
+remainder = first_number % second_number
+print(quotient)
+print(remainder)
+
+
+21.Leap Year
+
+Year = int(input())
+if ((Year % 400 == 0) or  (Year % 100 != 0) and  (Year % 4 == 0)):   
+    print("True")
+else:
+    print("False")
+
+
+22.Weather condition
+#input -50.0 5.7
+
+T = float(input())
+
+if T < 0:
+    print("Freezing weather")
+elif 0 <= T < 10:
+    print("Very Cold weather")
+elif 10 <= T < 20:
+    print("Cold weather")
+elif 20 <= T < 30:
+    print("Normal")
+elif 30 <= T < 40:
+    print("Hot")
+else:
+    print("Very Hot")
+
+
+
+23.Sum Of The Digits
+# between 0 and 10000
+
+number = input()
+is_one_digit = (len(number) == 1)
+is_two_digit = (len(number) == 2)
+is_three_digit = (len(number) == 3)
+is_fourt_digit = (len(number) == 4)
+
+if is_one_digit:
+    print(number)
+elif is_two_digit:
+    first_digit = int(number[0])
+    second_digit = int(number[1])
+    print(first_digit + second_digit)
+elif is_three_digit:
+    first_digit = int(number[0])
+    second_digit = int(number[1])
+    third_digit = int(number[2])
+    print(first_digit + second_digit + third_digit)
+elif is_fourt_digit:
+    first_digit = int(number[0])
+    second_digit = int(number[1])
+    third_digit = int(number[2])
+    fourt_digit = int(number[3])
+    print(first_digit + second_digit + third_digit + fourt_digit)
+
+
+
+24.Simple Calculator
+#(+,-,*,/,%)
+
+operator = input()
+A = int(input())
+B = int(input())
+
+condition_1 = (A + B)
+condition_2 = (A - B)
+condition_3 = (A * B)
+condition_4 = (A / B)
+condition_5 = (A % B)
+if operator == "+":
+    print(condition_1)
+elif operator == "-":
+    print(condition_2)
+elif operator == "*":
+    print(condition_3)
+elif operator == "/":
+    print(condition_4)
+elif operator == "%":
+    print(condition_5)
+
+
+
+
+25.Print Integers
+#  use while condition
+
+a = int(input())
+counter = 0
+while counter < a:
+    print (1 + counter)
+    counter = counter + 1
+
+
+26.Solid Right Angled Triangle
+# use while condition
+
+a = int(input())
+counter = 1
+while counter <= a:
+    print("* " * counter)
+   
+    counter = (counter + 1)
+
+
+27.Sum of The Given numbers 
+# input 3 8 11 25 output 44
+# while condition
+
+number_of_inputs = int(input())
+counter = 0
+sum = 0
+while counter < number_of_inputs:
+    
+    number = int(input())
+    sum = (sum + number)
+    counter = (counter + 1)
+print (sum)
+
+
+
+28.Solid Rectangle
+
+a = int(input())
+b = int(input())
+
+counter = 0
+while counter < a:
+    print("+ " * b)
+    counter = counter + 1
+
+
+29.Identify the Mistake_Styled word
+# for Loop
+
+a = input()
+len_of_a = len(a)
+b = a[0]
+for i in range(1, len_of_a):
+    b = b + "-" + a[i]
+print(b)
+
+
+30.Solid Right Angled Triangle
+# use for loop
+
+a = int(input())
+for a in range(1,a + 1):
+    print("* " * a)
+for a in range(1,a + 1):
+    print("* " * a)
+
+
+31.Sum of Cubes
+
+a = int(input())
+total = 0
+for i in range(1 , a + 1 ):
+    total = total +(i ** 3) 
+print(total)
+
+
+
+32.Sum of First N Odd Numbers
+
+n = int(input())
+total = 0
+for i in range(1, n + 1):
+    if (i % 2) == 1:
+        total = total + i
+print(total)
+
+
+
+33.Sum of First N Even Numbers
+
+n = int(input())
+total = 0
+for i in range(1, n + 1):
+    if (i % 2) == 0:
+        total = total + i
+print(total)
+
+
+
+34.date formate
+#use replace
+
+date = input()
+date = date.replace("-","/")
+print(date)
+
+
+35.Letter,Digit,Special Character
+
+char = input()[0]
+if char.isupper():
+    print('Uppercase Letter')
+elif char.islower():
+    print('Lowercase Letter')
+elif char.isdigit():
+    print('Digit')
+else:
+    print('Special Character')
+
+
+36.shuffle String
+
+word = input()
+lenght = len(word)
+shuffled = ""
+for i in range(lenght):
+    index = int(input())
+    shuffled = shuffled + word[index]
+print(shuffled)
+
+
+37.Identify the Mistake_Triangle
+
+n = int(input())
+
+k = n - 1
+for i in range(1, n+1):
+    spaces = " " * k
+    stars = "* " * i
+    print(spaces+stars)
+    k = k - 1
+
+
+38.Hollow Rectangle
+
+m = int(input())
+n = int(input())
+print("+" + n*"-" + "+")
+for _ in range(m):
+    print("|"+n*" "+"|")
+print("+"+n*"-"+ "+")
+
+
+
+
+39.W pattern_with_*
+
+N = int(input())
+print("* " * (2 * N - 1))
+for i in range(1, N):
+    print(" " * i, end="")
+    print("* " * (N - i), end="")
+    print("  " * (i - 1), end="")
+    print("* " * (N - i))
+
+
+
+40.Fizz Buzz
+# use def
+
+def fizz_buzz(number):
+    if ((number % 3 == 0) and (number % 5 == 0)):
+        func = "FizzBuzz"
+    elif(number % 5) == 0:
+        func = "Buzz"
+    elif (number % 3) == 0:
+         func = "Fizz"
+    else:
+        func = number
+    return func
+  
+number = int(input())
+output = fizz_buzz(number)
+print(output)
+
+
+41.Nth Term_in_Fibonacci_Series
+
+def fibonacci(n):
+    if n <= 1:
+       return n
+    else:
+        return fibonacci(n-1) + fibonacci(n - 2)
+   
+n = int(input())
+output = fibonacci(n)
+print(output)
+
+
+42.Add a key
+# dictonary
+
+students_dict = {
+    "Ram": "Cricket",
+    "Naresh": "Football",
+    "Vani": "Tennis",
+    "Rahim": "Cricket"
+}
+
+key,value = input().split()
+students_dict[key] = value
+print(students_dict)
+
+
+
+
+43.Car_class
+# use opp
+#(object orinted programming)
+
+class Car :
+    def __init__(self, color, max_speed, acceleration, tyre_friction):
+        self.color = color
+        self.max_speed = max_speed
+        self.acceleration = acceleration
+        self.tyre_friction = tyre_friction
+
+
+def default_test():
+    car = Car(color="Red", max_speed=250, acceleration=10, tyre_friction=3)
+    print(car.color)
+    print(car.max_speed)
+    print(car.acceleration)
+    print(car.tyre_friction)
